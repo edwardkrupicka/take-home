@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nytreader/static/css/main.03eb390d.css",
+    "main.js": "/nytreader/static/js/main.6e7e2d65.js",
+    "static/js/787.091d4c06.chunk.js": "/nytreader/static/js/787.091d4c06.chunk.js",
+    "index.html": "/nytreader/index.html",
+    "main.03eb390d.css.map": "/nytreader/static/css/main.03eb390d.css.map",
+    "main.6e7e2d65.js.map": "/nytreader/static/js/main.6e7e2d65.js.map",
+    "787.091d4c06.chunk.js.map": "/nytreader/static/js/787.091d4c06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03eb390d.css",
+    "static/js/main.6e7e2d65.js"
+  ]
+}
