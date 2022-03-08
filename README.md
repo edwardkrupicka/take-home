@@ -1,4 +1,4 @@
-# New York Times News Reader
+# [NY Times Reader](https://edwardkrupicka.github.io/take-home/)
 - [Rubric](https://mod4.turing.edu/projects/take_home/take_home_rubric) 
 - [MVP](https://mod4.turing.edu/projects/take_home/take_home_fe)
 - [API](https://developer.nytimes.com/docs/top-stories-product/1/overview)
