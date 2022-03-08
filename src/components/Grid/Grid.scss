@@ -1,0 +1,19 @@
+.grid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+
+	.top-article {
+		margin: 0px 0px 50px;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 345px);
+		grid-gap: 40px;
+		color: lightgray;
+		width: 100%;
+		justify-content: center;
+	}
+}
