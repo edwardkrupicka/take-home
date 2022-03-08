@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# New York Times News Reader
+- [Rubric](https://mod4.turing.edu/projects/take_home/take_home_rubric) 
+- [MVP](https://mod4.turing.edu/projects/take_home/take_home_fe)
+- [API](https://developer.nytimes.com/docs/top-stories-product/1/overview)
+- [Wireframe](https://www.figma.com/file/LRIxB6BV8Fbm8k0udeYlED/Untitled?node-id=0%3A1https://www.figma.com/file/LRIxB6BV8Fbm8k0udeYlED/Untitled?node-id=0%3A1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Contributors
+just me -> [Edward Krupicka](https://github.com/edwardkrupicka)
 
-## Available Scripts
+### Abstract
+My Turing Take-Home practice project.
+This goal of this project was to create an app that consumes the [New York Times API Top Stories API](https://developer.nytimes.com/docs/top-stories-product/1/overview) to display articles on a home view and link to the articles corresponding url link.
 
-In the project directory, you can run:
+### Goals
+The goals of this project were to:
+- Create an app that is UI friendly
+- Write modular, reusable code that adheres to SRP (Single Responsibility Principle) and DRY (Don't Repeat Yourself).
+- Make network requests to retrieve data from a REST API.
+- Display a list of articles
+- A “detailed” view for each article (as opposed to summary/list view)
+- Articles in the list must link to the detailed article view you create
+- Create a filter feature
 
-### `npm start`
+### Home View
+<img width="1438" alt="Screen Shot 2022-03-08 at 1 20 42 PM" src="https://user-images.githubusercontent.com/87044013/157318426-ad3af373-aab0-4115-a427-2068dfec0642.png">
+<img width="1438" alt="Screen Shot 2022-03-08 at 1 22 43 PM" src="https://user-images.githubusercontent.com/87044013/157318659-6002d7c8-667e-47a2-827e-b34f424100a6.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Article View
+<img width="1438" alt="Screen Shot 2022-03-08 at 1 24 00 PM" src="https://user-images.githubusercontent.com/87044013/157318817-4fbd8c03-ff40-4cb1-bcf2-5310881a6a37.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Wireframe
+<img width="500" alt="Screen Shot 2022-03-08 at 1 24 00 PM" src="https://user-images.githubusercontent.com/87044013/157320593-ea373a30-723f-4659-9692-2a078ffdee86.png"> <img width="500" alt="Screen Shot 2022-03-08 at 1 24 00 PM" src="https://user-images.githubusercontent.com/87044013/157320769-ea793dc3-84e6-4b60-852e-daf19a8885ba.png">
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Technologies Used:
+- Javascript & React
+- HTML, CSS and SASS
+- Node.js & NPM
+- REST API
