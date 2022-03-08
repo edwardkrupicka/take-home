@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nytreader/static/css/main.03eb390d.css",
-    "main.js": "/nytreader/static/js/main.6e7e2d65.js",
-    "static/js/787.091d4c06.chunk.js": "/nytreader/static/js/787.091d4c06.chunk.js",
-    "index.html": "/nytreader/index.html",
-    "main.03eb390d.css.map": "/nytreader/static/css/main.03eb390d.css.map",
-    "main.6e7e2d65.js.map": "/nytreader/static/js/main.6e7e2d65.js.map",
-    "787.091d4c06.chunk.js.map": "/nytreader/static/js/787.091d4c06.chunk.js.map"
+    "main.css": "/take-home/static/css/main.03eb390d.css",
+    "main.js": "/take-home/static/js/main.65eaa280.js",
+    "static/js/787.091d4c06.chunk.js": "/take-home/static/js/787.091d4c06.chunk.js",
+    "index.html": "/take-home/index.html",
+    "main.03eb390d.css.map": "/take-home/static/css/main.03eb390d.css.map",
+    "main.65eaa280.js.map": "/take-home/static/js/main.65eaa280.js.map",
+    "787.091d4c06.chunk.js.map": "/take-home/static/js/787.091d4c06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03eb390d.css",
-    "static/js/main.6e7e2d65.js"
+    "static/js/main.65eaa280.js"
   ]
 }
