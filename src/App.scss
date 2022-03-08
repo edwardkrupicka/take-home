@@ -1,9 +1,37 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .app-title {
-    font-size: 50px;
+    font-size: 40px;
     color: black;
+    margin: 20px 0px 20px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+  }
+  
+  .copyright {
+    margin: 10px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+
+  .button {
+    color: black;
+    border-color: black;
+    margin: 20px;
+  }
+
+  .story-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 
+              0 2px 2px rgba(0, 0, 0, 0.1), 
+              0 4px 4px rgba(0, 0, 0, 0.1), 
+              0 8px 8px rgba(0, 0, 0, 0.1), 
+              0 16px 16px rgba(0, 0, 0, 0.1);
   }
 
 }

@@ -1,12 +1,20 @@
 import './Grid.scss';
+import * as React from 'react';
 import StoryCard from '../StoryCard';
+import BasicSelect from '../BasicSelect';
 
-const Grid = ({ stories}) => {
+const Grid = ({ stories, storySection }) => {
+const [story, setStory] = React.useState([]);
 
-  const cards = stories.map((element, index) => {
+React.useEffect(() => {
+	setStory(stories)
+}, [stories])
+
+  const cards = story.map((element, index) => {
       return <StoryCard
+				key={index}
 				index={index}
-				key={element.id}
+				element={element}
 				element={element}
         image={element.multimedia[0].url}
         title={element.title}
@@ -16,6 +24,9 @@ const Grid = ({ stories}) => {
 
   return (
 		<div className='grid'>
+			<div className='buttons-container'>
+				<BasicSelect storySection={ storySection } story={story} setStory={setStory}/>
+			</div>
 			<div className='top-article'>
 				{cards.shift()}
 			</div>
